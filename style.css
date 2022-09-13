@@ -1,0 +1,41 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+   background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+hr{
+  border-color: #f05f44;
+  border-width: 3px;
+  /*maksimalna sirina*/
+  max-width: 65px;
+}
+h1{
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  /*linija 19 je da se dugme onako ukoviri lepo-kada otvoris sajt videces i sam*/
+}
+.btn-xl{
+  background-color: #f05f44;
+  border-color: #F05F44;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+}
+.btn-xl:hover{
+  background-color: #ee4b08;
+   border-color: #ee4b08;
+   border-width: 5px;
+}
+.buffer{
+  height: 8rem;
+}
